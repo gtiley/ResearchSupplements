@@ -1,0 +1,91 @@
+library(ape)
+tree <- read.tree("RRsTree.tre")
+phy <- drop.tip(tree, "Amborella_trichopoda")
+phy <- drop.tip(phy, "Malus_domestica")
+phy <- drop.tip(phy, "Citrus_clementina")
+phy2 <- phy
+phy2$edge.length <- log10(phy2$edge.length)
+
+pdf("CM_C.C.pdf")
+
+for (i in 0:99)
+{
+	data <- read.table(paste("cM_C.C.",i,".txt", sep=""), header=TRUE, row.names=1)
+	RR <- data$RRate
+	Size <- data$SIZE
+	names(RR) <- row.names(data)
+	names(Size) <- row.names(data)
+	RRPIC <- pic(RR, phy2)
+	SizePIC <- pic(log2(Size), phy2)
+	print(cor.test(RRPIC, SizePIC))
+#	r <- print(cor.test(RRPIC, SizePIC))
+#	write.table(r, cM_C.C.PIC.txt, append = TRUE)
+	lmRRSize <- lm(SizePIC ~ RRPIC - 1)
+	print(summary(lmRRSize))
+	plot(RRPIC, SizePIC)
+	par (new=F)
+	abline(lmRRSize)
+}
+dev.off()
+
+///
+
+library(ape)
+tree <- read.tree("RRsTree.tre")
+phy <- drop.tip(tree, "Amborella_trichopoda")
+phy <- drop.tip(phy, "Malus_domestica")
+phy <- drop.tip(phy, "Citrus_clementina")
+phy2 <- phy
+phy2$edge.length <- log10(phy2$edge.length)
+
+pdf("CM_C.C.pdf")
+plot(c(-2000,2000), c(-1.5,1.5), xlab = "",ylab="")
+for (i in 0:99)
+{
+	data <- read.table(paste("cM_C.C.",i,".txt", sep=""), header=TRUE, row.names=1)
+	RR <- data$RRate
+	Size <- data$SIZE
+	names(RR) <- row.names(data)
+	names(Size) <- row.names(data)
+	RRPIC <- pic(RR, phy2)
+	SizePIC <- pic(log2(Size), phy2)
+	print(cor.test(RRPIC, SizePIC))
+#	r <- print(cor.test(RRPIC, SizePIC))
+#	write.table(r, cM_C.C.PIC.txt, append = TRUE)
+	lmRRSize <- lm(SizePIC ~ RRPIC - 1)
+	print(summary(lmRRSize))
+	abline(lmRRSize)
+}
+dev.off()
+
+
+
+//////Mb
+
+library(ape)
+tree <- read.tree("RRsTree.tre")
+phy <- drop.tip(tree, "Amborella_trichopoda")
+phy <- drop.tip(phy, "Malus_domestica")
+phy <- drop.tip(phy, "Citrus_clementina")
+phy2 <- phy
+phy2$edge.length <- log10(phy2$edge.length)
+
+pdf("CM_C.Mb.pdf")
+plot(c(-2000,2000), c(-1.5,1.5), xlab = "",ylab="")
+for (i in 0:99)
+{
+	data <- read.table(paste("cM_C.Mb.",i,".txt", sep=""), header=TRUE, row.names=1)
+	RR <- data$RRate
+	Size <- data$SIZE
+	names(RR) <- row.names(data)
+	names(Size) <- row.names(data)
+	RRPIC <- pic(RR, phy2)
+	SizePIC <- pic(log2(Size), phy2)
+	print(cor.test(RRPIC, SizePIC))
+#	r <- print(cor.test(RRPIC, SizePIC))
+#	write.table(r, cM_C.Mb.PIC.txt, append = TRUE)
+	lmRRSize <- lm(SizePIC ~ RRPIC - 1)
+	print(summary(lmRRSize))
+	abline(lmRRSize)
+}
+dev.off()

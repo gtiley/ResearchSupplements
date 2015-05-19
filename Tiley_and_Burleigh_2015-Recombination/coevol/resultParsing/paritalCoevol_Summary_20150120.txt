@@ -1,0 +1,2 @@
+Positive_dNdS	Negative_dNdS	GeneTotal
+30	158	3748
