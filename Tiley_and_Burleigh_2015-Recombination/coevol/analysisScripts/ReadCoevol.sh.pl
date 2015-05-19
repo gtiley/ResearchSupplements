@@ -28,7 +28,7 @@ while (<FH1>)
 	    if (/\S+\s+(\d+)\s+\S+/)
 	    {
 		$ESS = $1;
-		if ($ESS < 200 && $ESS >= 50)
+		if ($ESS < 300 && $ESS >= 50)
 		{
 		    $BadMixCount = $BadMixCount + 1;
 		}
