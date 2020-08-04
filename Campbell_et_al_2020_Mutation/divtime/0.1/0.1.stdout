@@ -1,0 +1,462 @@
+Suffix for output files from this run is 0.1
+Random number seed from file inseed is 6538
+Master Tree read from file named 7tax.tre
+Taxon named Mmus is part of the outgroup
+Root node number of master tree is  10
+Here are node numbers of other internal nodes on master tree:
+(((((Hsap:0,Ptro:1):6,Pabe:2):7,Csab:3):8,Cjac:4):9,Mmur:5);
+Number of genes=  9
+Name of gene  0 is o.estb.group0
+Name of gene  1 is o.estb.group1
+Name of gene  2 is o.estb.group2
+Name of gene  3 is o.estb.group3
+Name of gene  4 is o.estb.group4
+Name of gene  5 is o.estb.group5
+Name of gene  6 is o.estb.group6
+Name of gene  7 is o.estb.group7
+Name of gene  8 is o.estb.group8
+Approximate the posterior version
+Genes differ in tendencies to change rates over time
+sampfreq   5000 numsamps  10000 burnin 5000000
+newk  0.100 othk  0.500 thek  0.500
+brownmean  0.023 brownsd  0.023
+browngamr  1.000 browngamlam 43.478
+rttm 89.100 rttmsd  0.200 minab  1.000
+timegamr 198470.250 timegamlam 2227.500
+rtrate   0.0016 rtratesd   0.0016
+rategamr  1.000 rategamlam 625.000
+nbranches= 10 nnodes= 11
+ntips =  6 nintnodes =  4
+bigtime =  120.000
+NUMCORREPS =  1000
+starting at semi-random guess
+  0:t=   0.0000 hight=   0.0000 lowt=   0.0000 rt=  17.3498 pnode=  6
+  1:t=   0.0000 hight=   0.0000 lowt=   0.0000 rt=  20.5813 pnode=  6
+  2:t=   0.0000 hight=   0.0000 lowt=   0.0000 rt=   9.2722 pnode=  7
+  3:t=   0.0000 hight=   0.0000 lowt=   0.0000 rt=   7.1924 pnode=  8
+  4:t=   0.0000 hight=   0.0000 lowt=   0.0000 rt=   2.7201 pnode=  9
+  5:t=   0.0000 hight=   0.0000 lowt=   0.0000 rt=   2.0943 pnode= 10
+  6:t=   9.6845 hight=  10.0000 lowt=   7.5000 rt=   0.0007 pnode=  7
+  7:t=  13.9518 hight=  28.0000 lowt=  11.2000 rt=   0.0001 pnode=  8
+  8:t=  32.3071 hight=  33.7000 lowt=  25.0000 rt=   0.0001 pnode=  9
+  9:t=  54.1227 hight=  62.1000 lowt=  41.0000 rt=   0.0010 pnode= 10
+ 10:t=  65.8955 hight= 120.0000 lowt=  41.0000 rt=   0.0010 pnode= -1
+Each gene initialized to have same rate at node 0!
+All sequences (tips) isolated at same time
+POSTERIOR INTERVAL from probability   0.02500 to   0.97500
+(i.e.   250 -th lowest value to  9750 -th lowest value)
+Consflate: nsuc=   4108657 nfail=  50886344 psuc= 0.07471
+Bothflate: nsuc=   4105087 nfail=  50889914 psuc= 0.07464
+Rateflate[0]: nsuc=   3988457 nfail=  51006544 psuc= 0.07252
+Partrateflate[0]: nsuc=   8155905 nfail=  46839096 psuc= 0.14830
+Rateflate[1]: nsuc=   3136317 nfail=  51858684 psuc= 0.05703
+Partrateflate[1]: nsuc=   8432481 nfail=  46562520 psuc= 0.15333
+Rateflate[2]: nsuc=   3572842 nfail=  51422159 psuc= 0.06497
+Partrateflate[2]: nsuc=   7919960 nfail=  47075041 psuc= 0.14401
+Rateflate[3]: nsuc=   2056156 nfail=  52938845 psuc= 0.03739
+Partrateflate[3]: nsuc=   8441606 nfail=  46553395 psuc= 0.15350
+Rateflate[4]: nsuc=   1821659 nfail=  53173342 psuc= 0.03312
+Partrateflate[4]: nsuc=   4433620 nfail=  50561381 psuc= 0.08062
+Rateflate[5]: nsuc=   1531896 nfail=  53463105 psuc= 0.02786
+Partrateflate[5]: nsuc=   3751842 nfail=  51243159 psuc= 0.06822
+Rateflate[6]: nsuc=   7462111 nfail=  47532890 psuc= 0.13569
+Partrateflate[6]: nsuc=  21477077 nfail=  33517924 psuc= 0.39053
+Rateflate[7]: nsuc=   7229527 nfail=  47765474 psuc= 0.13146
+Partrateflate[7]: nsuc=  20294976 nfail=  34700025 psuc= 0.36903
+Rateflate[8]: nsuc=   3253158 nfail=  51741843 psuc= 0.05915
+Partrateflate[8]: nsuc=   7922641 nfail=  47072360 psuc= 0.14406
+Timeflate: nsuc=   3077105 nfail=  51917896 psuc= 0.05595
+Partconsflate: nsuc=   4770054 nfail=  50224947 psuc= 0.08674
+Partbothflate: nsuc=   4769650 nfail=  50225351 psuc= 0.08673
+Parttimeflate: nsuc=   3997775 nfail=  50997226 psuc= 0.07269
+RATE[gene 0][node  0] nsuc=  29921873 nfail=  25073128 psuc= 0.54408
+RATE[gene 1][node  0] nsuc=  28825451 nfail=  26169550 psuc= 0.52415
+RATE[gene 2][node  0] nsuc=  28962946 nfail=  26032055 psuc= 0.52665
+RATE[gene 3][node  0] nsuc=  29299632 nfail=  25695369 psuc= 0.53277
+RATE[gene 4][node  0] nsuc=  20846958 nfail=  34148043 psuc= 0.37907
+RATE[gene 5][node  0] nsuc=  17035270 nfail=  37959731 psuc= 0.30976
+RATE[gene 6][node  0] nsuc=  42875405 nfail=  12119596 psuc= 0.77962
+RATE[gene 7][node  0] nsuc=  41306588 nfail=  13688413 psuc= 0.75110
+RATE[gene 8][node  0] nsuc=  29403566 nfail=  25591435 psuc= 0.53466
+RATE[gene 0][node  1] nsuc=  29388093 nfail=  25606908 psuc= 0.53438
+RATE[gene 1][node  1] nsuc=  28437589 nfail=  26557412 psuc= 0.51709
+RATE[gene 2][node  1] nsuc=  27480851 nfail=  27514150 psuc= 0.49970
+RATE[gene 3][node  1] nsuc=  27333618 nfail=  27661383 psuc= 0.49702
+RATE[gene 4][node  1] nsuc=  21298890 nfail=  33696111 psuc= 0.38729
+RATE[gene 5][node  1] nsuc=  16891167 nfail=  38103834 psuc= 0.30714
+RATE[gene 6][node  1] nsuc=  42204755 nfail=  12790246 psuc= 0.76743
+RATE[gene 7][node  1] nsuc=  41168323 nfail=  13826678 psuc= 0.74858
+RATE[gene 8][node  1] nsuc=  27017385 nfail=  27977616 psuc= 0.49127
+RATE[gene 0][node  2] nsuc=  21294238 nfail=  33700763 psuc= 0.38720
+RATE[gene 1][node  2] nsuc=  23883999 nfail=  31111002 psuc= 0.43429
+RATE[gene 2][node  2] nsuc=  22539239 nfail=  32455762 psuc= 0.40984
+RATE[gene 3][node  2] nsuc=  23883512 nfail=  31111489 psuc= 0.43429
+RATE[gene 4][node  2] nsuc=  12815069 nfail=  42179932 psuc= 0.23302
+RATE[gene 5][node  2] nsuc=  12081167 nfail=  42913834 psuc= 0.21968
+RATE[gene 6][node  2] nsuc=  39898605 nfail=  15096396 psuc= 0.72550
+RATE[gene 7][node  2] nsuc=  40613549 nfail=  14381452 psuc= 0.73850
+RATE[gene 8][node  2] nsuc=  21333620 nfail=  33661381 psuc= 0.38792
+RATE[gene 0][node  3] nsuc=  15442778 nfail=  39552223 psuc= 0.28080
+RATE[gene 1][node  3] nsuc=  19793883 nfail=  35201118 psuc= 0.35992
+RATE[gene 2][node  3] nsuc=  16896236 nfail=  38098765 psuc= 0.30723
+RATE[gene 3][node  3] nsuc=  13861278 nfail=  41133723 psuc= 0.25205
+RATE[gene 4][node  3] nsuc=   7213557 nfail=  47781444 psuc= 0.13117
+RATE[gene 5][node  3] nsuc=   7397293 nfail=  47597708 psuc= 0.13451
+RATE[gene 6][node  3] nsuc=  39580944 nfail=  15414057 psuc= 0.71972
+RATE[gene 7][node  3] nsuc=  38053247 nfail=  16941754 psuc= 0.69194
+RATE[gene 8][node  3] nsuc=  18263738 nfail=  36731263 psuc= 0.33210
+RATE[gene 0][node  4] nsuc=  11185155 nfail=  43809846 psuc= 0.20338
+RATE[gene 1][node  4] nsuc=   9782623 nfail=  45212378 psuc= 0.17788
+RATE[gene 2][node  4] nsuc=  11257960 nfail=  43737041 psuc= 0.20471
+RATE[gene 3][node  4] nsuc=   8466242 nfail=  46528759 psuc= 0.15395
+RATE[gene 4][node  4] nsuc=   6167478 nfail=  48827523 psuc= 0.11215
+RATE[gene 5][node  4] nsuc=   4682061 nfail=  50312940 psuc= 0.08514
+RATE[gene 6][node  4] nsuc=  31637216 nfail=  23357785 psuc= 0.57527
+RATE[gene 7][node  4] nsuc=  30995142 nfail=  23999859 psuc= 0.56360
+RATE[gene 8][node  4] nsuc=  13018903 nfail=  41976098 psuc= 0.23673
+RATE[gene 0][node  5] nsuc=  12457215 nfail=  42537786 psuc= 0.22652
+RATE[gene 1][node  5] nsuc=   9428364 nfail=  45566637 psuc= 0.17144
+RATE[gene 2][node  5] nsuc=   9148145 nfail=  45846856 psuc= 0.16635
+RATE[gene 3][node  5] nsuc=   8312277 nfail=  46682724 psuc= 0.15115
+RATE[gene 4][node  5] nsuc=   7939144 nfail=  47055857 psuc= 0.14436
+RATE[gene 5][node  5] nsuc=   7402983 nfail=  47592018 psuc= 0.13461
+RATE[gene 6][node  5] nsuc=  31506713 nfail=  23488288 psuc= 0.57290
+RATE[gene 7][node  5] nsuc=  28583492 nfail=  26411509 psuc= 0.51975
+RATE[gene 8][node  5] nsuc=  23249170 nfail=  31745831 psuc= 0.42275
+RATE[gene 0][node  6] nsuc=  16894394 nfail=  38100607 psuc= 0.30720
+RATE[gene 1][node  6] nsuc=  17744862 nfail=  37250139 psuc= 0.32266
+RATE[gene 2][node  6] nsuc=  16942501 nfail=  38052500 psuc= 0.30807
+RATE[gene 3][node  6] nsuc=  17966611 nfail=  37028390 psuc= 0.32670
+RATE[gene 4][node  6] nsuc=  10630873 nfail=  44364128 psuc= 0.19331
+RATE[gene 5][node  6] nsuc=   9232781 nfail=  45762220 psuc= 0.16788
+RATE[gene 6][node  6] nsuc=  33773726 nfail=  21221275 psuc= 0.61412
+RATE[gene 7][node  6] nsuc=  31906052 nfail=  23088949 psuc= 0.58016
+RATE[gene 8][node  6] nsuc=  16569525 nfail=  38425476 psuc= 0.30129
+RATE[gene 0][node  7] nsuc=  15625568 nfail=  39369433 psuc= 0.28413
+RATE[gene 1][node  7] nsuc=  14841209 nfail=  40153792 psuc= 0.26986
+RATE[gene 2][node  7] nsuc=  14458715 nfail=  40536286 psuc= 0.26291
+RATE[gene 3][node  7] nsuc=  15160828 nfail=  39834173 psuc= 0.27568
+RATE[gene 4][node  7] nsuc=   7960066 nfail=  47034935 psuc= 0.14474
+RATE[gene 5][node  7] nsuc=   6463413 nfail=  48531588 psuc= 0.11753
+RATE[gene 6][node  7] nsuc=  30168615 nfail=  24826386 psuc= 0.54857
+RATE[gene 7][node  7] nsuc=  31365254 nfail=  23629747 psuc= 0.57033
+RATE[gene 8][node  7] nsuc=  13939004 nfail=  41055997 psuc= 0.25346
+RATE[gene 0][node  8] nsuc=  12371770 nfail=  42623231 psuc= 0.22496
+RATE[gene 1][node  8] nsuc=  14415205 nfail=  40579796 psuc= 0.26212
+RATE[gene 2][node  8] nsuc=  11579329 nfail=  43415672 psuc= 0.21055
+RATE[gene 3][node  8] nsuc=  10837738 nfail=  44157263 psuc= 0.19707
+RATE[gene 4][node  8] nsuc=   6891717 nfail=  48103284 psuc= 0.12532
+RATE[gene 5][node  8] nsuc=   5693409 nfail=  49301592 psuc= 0.10353
+RATE[gene 6][node  8] nsuc=  28351327 nfail=  26643674 psuc= 0.51553
+RATE[gene 7][node  8] nsuc=  25130765 nfail=  29864236 psuc= 0.45696
+RATE[gene 8][node  8] nsuc=  11371985 nfail=  43623016 psuc= 0.20678
+RATE[gene 0][node  9] nsuc=   9158511 nfail=  45836490 psuc= 0.16653
+RATE[gene 1][node  9] nsuc=   5958076 nfail=  49036925 psuc= 0.10834
+RATE[gene 2][node  9] nsuc=   5764708 nfail=  49230293 psuc= 0.10482
+RATE[gene 3][node  9] nsuc=   4040072 nfail=  50954929 psuc= 0.07346
+RATE[gene 4][node  9] nsuc=   4109587 nfail=  50885414 psuc= 0.07473
+RATE[gene 5][node  9] nsuc=   4005806 nfail=  50989195 psuc= 0.07284
+RATE[gene 6][node  9] nsuc=  12430619 nfail=  42564382 psuc= 0.22603
+RATE[gene 7][node  9] nsuc=  10693651 nfail=  44301350 psuc= 0.19445
+RATE[gene 8][node  9] nsuc=   5613994 nfail=  49381007 psuc= 0.10208
+ROOT rate constrained to equal rate of node  9
+RATE CHANGE[gene 0][node 11] nsuc=  49601447 nfail=   5393554 psuc= 0.90193
+RATE CHANGE[gene 1][node 11] nsuc=  49578166 nfail=   5416835 psuc= 0.90150
+RATE CHANGE[gene 2][node 11] nsuc=  49604221 nfail=   5390780 psuc= 0.90198
+RATE CHANGE[gene 3][node 11] nsuc=  49573466 nfail=   5421535 psuc= 0.90142
+RATE CHANGE[gene 4][node 11] nsuc=  49534580 nfail=   5460421 psuc= 0.90071
+RATE CHANGE[gene 5][node 11] nsuc=  49612210 nfail=   5382791 psuc= 0.90212
+RATE CHANGE[gene 6][node 11] nsuc=  48894342 nfail=   6100659 psuc= 0.88907
+RATE CHANGE[gene 7][node 11] nsuc=  48975106 nfail=   6019895 psuc= 0.89054
+RATE CHANGE[gene 8][node 11] nsuc=  49612719 nfail=   5382282 psuc= 0.90213
+TIME  6: nsuc=  14240610 nfail=  40754391 psuc= 0.25894
+TIME  7: nsuc=    983809 nfail=  54011192 psuc= 0.01789
+TIME  8: nsuc=   3512072 nfail=  51482929 psuc= 0.06386
+TIME  9: nsuc=  13991507 nfail=  41003494 psuc= 0.25441
+TIME 10: nsuc=   1171777 nfail=  53823224 psuc= 0.02131
+Prop. Node  0 to Root=    0.00000 (S.D. =   0.00000) (  0.00000,  0.00000)
+Prop. Node  1 to Root=    0.00000 (S.D. =   0.00000) (  0.00000,  0.00000)
+Prop. Node  2 to Root=    0.00000 (S.D. =   0.00000) (  0.00000,  0.00000)
+Prop. Node  3 to Root=    0.00000 (S.D. =   0.00000) (  0.00000,  0.00000)
+Prop. Node  4 to Root=    0.00000 (S.D. =   0.00000) (  0.00000,  0.00000)
+Prop. Node  5 to Root=    0.00000 (S.D. =   0.00000) (  0.00000,  0.00000)
+Prop. Node  6 to Root=    0.08988 (S.D. =   0.00358) (  0.08457,  0.09813)
+Prop. Node  7 to Root=    0.21833 (S.D. =   0.00642) (  0.20819,  0.23361)
+Prop. Node  8 to Root=    0.35163 (S.D. =   0.00755) (  0.34078,  0.37007)
+Prop. Node  9 to Root=    0.46925 (S.D. =   0.00703) (  0.46006,  0.48643)
+Root Depth =   89.11143 (S.D. =   0.20084) ( 88.71737, 89.50371)
+Rate[Gene  0,Node  0]=    0.00015 (S.D. =   0.00002) (  0.00012,  0.00018)
+Rate[Gene  0,Node  1]=    0.00015 (S.D. =   0.00002) (  0.00012,  0.00018)
+Rate[Gene  0,Node  2]=    0.00018 (S.D. =   0.00002) (  0.00014,  0.00021)
+Rate[Gene  0,Node  3]=    0.00022 (S.D. =   0.00002) (  0.00019,  0.00026)
+Rate[Gene  0,Node  4]=    0.00039 (S.D. =   0.00002) (  0.00035,  0.00042)
+Rate[Gene  0,Node  5]=    0.00030 (S.D. =   0.00001) (  0.00027,  0.00032)
+Rate[Gene  0,Node  6]=    0.00015 (S.D. =   0.00001) (  0.00013,  0.00017)
+Rate[Gene  0,Node  7]=    0.00017 (S.D. =   0.00001) (  0.00014,  0.00019)
+Rate[Gene  0,Node  8]=    0.00020 (S.D. =   0.00001) (  0.00018,  0.00023)
+Rate[Gene  0,Node  9]=    0.00026 (S.D. =   0.00001) (  0.00024,  0.00028)
+Rate[Gene  0,Node 10]=    0.00026 (S.D. =   0.00001) (  0.00024,  0.00028)
+Rate Change[Gene  0] =    0.00390 (S.D. =   0.00279) (  0.00112,  0.01124)
+Rate[Gene  1,Node  0]=    0.00015 (S.D. =   0.00002) (  0.00012,  0.00018)
+Rate[Gene  1,Node  1]=    0.00016 (S.D. =   0.00002) (  0.00013,  0.00020)
+Rate[Gene  1,Node  2]=    0.00019 (S.D. =   0.00002) (  0.00015,  0.00022)
+Rate[Gene  1,Node  3]=    0.00022 (S.D. =   0.00002) (  0.00018,  0.00026)
+Rate[Gene  1,Node  4]=    0.00044 (S.D. =   0.00002) (  0.00040,  0.00047)
+Rate[Gene  1,Node  5]=    0.00033 (S.D. =   0.00001) (  0.00030,  0.00036)
+Rate[Gene  1,Node  6]=    0.00016 (S.D. =   0.00001) (  0.00014,  0.00018)
+Rate[Gene  1,Node  7]=    0.00019 (S.D. =   0.00001) (  0.00017,  0.00022)
+Rate[Gene  1,Node  8]=    0.00024 (S.D. =   0.00002) (  0.00021,  0.00027)
+Rate[Gene  1,Node  9]=    0.00030 (S.D. =   0.00001) (  0.00028,  0.00032)
+Rate[Gene  1,Node 10]=    0.00030 (S.D. =   0.00001) (  0.00028,  0.00032)
+Rate Change[Gene  1] =    0.00413 (S.D. =   0.00282) (  0.00126,  0.01189)
+Rate[Gene  2,Node  0]=    0.00010 (S.D. =   0.00001) (  0.00008,  0.00012)
+Rate[Gene  2,Node  1]=    0.00010 (S.D. =   0.00001) (  0.00008,  0.00012)
+Rate[Gene  2,Node  2]=    0.00012 (S.D. =   0.00001) (  0.00010,  0.00014)
+Rate[Gene  2,Node  3]=    0.00015 (S.D. =   0.00001) (  0.00012,  0.00018)
+Rate[Gene  2,Node  4]=    0.00029 (S.D. =   0.00001) (  0.00026,  0.00032)
+Rate[Gene  2,Node  5]=    0.00021 (S.D. =   0.00001) (  0.00019,  0.00023)
+Rate[Gene  2,Node  6]=    0.00010 (S.D. =   0.00001) (  0.00009,  0.00012)
+Rate[Gene  2,Node  7]=    0.00013 (S.D. =   0.00001) (  0.00011,  0.00014)
+Rate[Gene  2,Node  8]=    0.00017 (S.D. =   0.00001) (  0.00015,  0.00019)
+Rate[Gene  2,Node  9]=    0.00021 (S.D. =   0.00000) (  0.00020,  0.00022)
+Rate[Gene  2,Node 10]=    0.00021 (S.D. =   0.00000) (  0.00020,  0.00022)
+Rate Change[Gene  2] =    0.00446 (S.D. =   0.00311) (  0.00132,  0.01263)
+Rate[Gene  3,Node  0]=    0.00012 (S.D. =   0.00001) (  0.00009,  0.00014)
+Rate[Gene  3,Node  1]=    0.00012 (S.D. =   0.00001) (  0.00010,  0.00015)
+Rate[Gene  3,Node  2]=    0.00014 (S.D. =   0.00001) (  0.00011,  0.00016)
+Rate[Gene  3,Node  3]=    0.00019 (S.D. =   0.00001) (  0.00016,  0.00022)
+Rate[Gene  3,Node  4]=    0.00033 (S.D. =   0.00002) (  0.00030,  0.00036)
+Rate[Gene  3,Node  5]=    0.00025 (S.D. =   0.00001) (  0.00023,  0.00028)
+Rate[Gene  3,Node  6]=    0.00012 (S.D. =   0.00001) (  0.00011,  0.00014)
+Rate[Gene  3,Node  7]=    0.00014 (S.D. =   0.00001) (  0.00012,  0.00015)
+Rate[Gene  3,Node  8]=    0.00018 (S.D. =   0.00001) (  0.00016,  0.00020)
+Rate[Gene  3,Node  9]=    0.00023 (S.D. =   0.00001) (  0.00022,  0.00025)
+Rate[Gene  3,Node 10]=    0.00023 (S.D. =   0.00001) (  0.00022,  0.00025)
+Rate Change[Gene  3] =    0.00443 (S.D. =   0.00308) (  0.00134,  0.01238)
+Rate[Gene  4,Node  0]=    0.00051 (S.D. =   0.00005) (  0.00042,  0.00061)
+Rate[Gene  4,Node  1]=    0.00057 (S.D. =   0.00005) (  0.00047,  0.00067)
+Rate[Gene  4,Node  2]=    0.00071 (S.D. =   0.00005) (  0.00060,  0.00082)
+Rate[Gene  4,Node  3]=    0.00101 (S.D. =   0.00006) (  0.00088,  0.00114)
+Rate[Gene  4,Node  4]=    0.00166 (S.D. =   0.00007) (  0.00151,  0.00177)
+Rate[Gene  4,Node  5]=    0.00125 (S.D. =   0.00005) (  0.00114,  0.00135)
+Rate[Gene  4,Node  6]=    0.00056 (S.D. =   0.00004) (  0.00049,  0.00064)
+Rate[Gene  4,Node  7]=    0.00070 (S.D. =   0.00004) (  0.00062,  0.00077)
+Rate[Gene  4,Node  8]=    0.00083 (S.D. =   0.00005) (  0.00074,  0.00092)
+Rate[Gene  4,Node  9]=    0.00110 (S.D. =   0.00003) (  0.00105,  0.00116)
+Rate[Gene  4,Node 10]=    0.00110 (S.D. =   0.00003) (  0.00105,  0.00116)
+Rate Change[Gene  4] =    0.00465 (S.D. =   0.00309) (  0.00144,  0.01277)
+Rate[Gene  5,Node  0]=    0.00042 (S.D. =   0.00004) (  0.00035,  0.00049)
+Rate[Gene  5,Node  1]=    0.00044 (S.D. =   0.00004) (  0.00036,  0.00050)
+Rate[Gene  5,Node  2]=    0.00050 (S.D. =   0.00004) (  0.00042,  0.00058)
+Rate[Gene  5,Node  3]=    0.00068 (S.D. =   0.00005) (  0.00058,  0.00076)
+Rate[Gene  5,Node  4]=    0.00117 (S.D. =   0.00005) (  0.00107,  0.00125)
+Rate[Gene  5,Node  5]=    0.00095 (S.D. =   0.00004) (  0.00087,  0.00103)
+Rate[Gene  5,Node  6]=    0.00046 (S.D. =   0.00003) (  0.00041,  0.00052)
+Rate[Gene  5,Node  7]=    0.00054 (S.D. =   0.00003) (  0.00048,  0.00060)
+Rate[Gene  5,Node  8]=    0.00067 (S.D. =   0.00004) (  0.00060,  0.00074)
+Rate[Gene  5,Node  9]=    0.00086 (S.D. =   0.00002) (  0.00082,  0.00091)
+Rate[Gene  5,Node 10]=    0.00086 (S.D. =   0.00002) (  0.00082,  0.00091)
+Rate Change[Gene  5] =    0.00384 (S.D. =   0.00269) (  0.00116,  0.01075)
+Rate[Gene  6,Node  0]=    0.00018 (S.D. =   0.00004) (  0.00010,  0.00027)
+Rate[Gene  6,Node  1]=    0.00019 (S.D. =   0.00004) (  0.00011,  0.00028)
+Rate[Gene  6,Node  2]=    0.00022 (S.D. =   0.00005) (  0.00013,  0.00032)
+Rate[Gene  6,Node  3]=    0.00027 (S.D. =   0.00006) (  0.00014,  0.00039)
+Rate[Gene  6,Node  4]=    0.00045 (S.D. =   0.00006) (  0.00034,  0.00056)
+Rate[Gene  6,Node  5]=    0.00033 (S.D. =   0.00005) (  0.00024,  0.00043)
+Rate[Gene  6,Node  6]=    0.00020 (S.D. =   0.00003) (  0.00015,  0.00026)
+Rate[Gene  6,Node  7]=    0.00028 (S.D. =   0.00003) (  0.00021,  0.00035)
+Rate[Gene  6,Node  8]=    0.00037 (S.D. =   0.00005) (  0.00028,  0.00046)
+Rate[Gene  6,Node  9]=    0.00059 (S.D. =   0.00003) (  0.00053,  0.00065)
+Rate[Gene  6,Node 10]=    0.00059 (S.D. =   0.00003) (  0.00053,  0.00065)
+Rate Change[Gene  6] =    0.01196 (S.D. =   0.00733) (  0.00346,  0.03049)
+Rate[Gene  7,Node  0]=    0.00022 (S.D. =   0.00005) (  0.00014,  0.00032)
+Rate[Gene  7,Node  1]=    0.00025 (S.D. =   0.00005) (  0.00015,  0.00035)
+Rate[Gene  7,Node  2]=    0.00024 (S.D. =   0.00005) (  0.00014,  0.00033)
+Rate[Gene  7,Node  3]=    0.00028 (S.D. =   0.00006) (  0.00015,  0.00040)
+Rate[Gene  7,Node  4]=    0.00050 (S.D. =   0.00006) (  0.00038,  0.00061)
+Rate[Gene  7,Node  5]=    0.00035 (S.D. =   0.00004) (  0.00027,  0.00044)
+Rate[Gene  7,Node  6]=    0.00024 (S.D. =   0.00003) (  0.00019,  0.00030)
+Rate[Gene  7,Node  7]=    0.00029 (S.D. =   0.00004) (  0.00022,  0.00036)
+Rate[Gene  7,Node  8]=    0.00041 (S.D. =   0.00004) (  0.00033,  0.00050)
+Rate[Gene  7,Node  9]=    0.00065 (S.D. =   0.00003) (  0.00060,  0.00071)
+Rate[Gene  7,Node 10]=    0.00065 (S.D. =   0.00003) (  0.00060,  0.00071)
+Rate Change[Gene  7] =    0.01106 (S.D. =   0.00669) (  0.00348,  0.02806)
+Rate[Gene  8,Node  0]=    0.00171 (S.D. =   0.00018) (  0.00136,  0.00207)
+Rate[Gene  8,Node  1]=    0.00166 (S.D. =   0.00017) (  0.00133,  0.00200)
+Rate[Gene  8,Node  2]=    0.00180 (S.D. =   0.00017) (  0.00146,  0.00214)
+Rate[Gene  8,Node  3]=    0.00185 (S.D. =   0.00018) (  0.00150,  0.00219)
+Rate[Gene  8,Node  4]=    0.00275 (S.D. =   0.00016) (  0.00241,  0.00306)
+Rate[Gene  8,Node  5]=    0.00120 (S.D. =   0.00013) (  0.00094,  0.00145)
+Rate[Gene  8,Node  6]=    0.00169 (S.D. =   0.00011) (  0.00146,  0.00191)
+Rate[Gene  8,Node  7]=    0.00176 (S.D. =   0.00012) (  0.00152,  0.00199)
+Rate[Gene  8,Node  8]=    0.00211 (S.D. =   0.00013) (  0.00186,  0.00235)
+Rate[Gene  8,Node  9]=    0.00261 (S.D. =   0.00007) (  0.00247,  0.00276)
+Rate[Gene  8,Node 10]=    0.00261 (S.D. =   0.00007) (  0.00247,  0.00276)
+Rate Change[Gene  8] =    0.00394 (S.D. =   0.00291) (  0.00104,  0.01185)
+
+br   0 samp mean=  0.00120 ( 0.00006) est. =  0.02465 (  0.00108,   0.00133)
+br   1 samp mean=  0.00121 ( 0.00006) est. =  0.01359 (  0.00109,   0.00134)
+br   2 samp mean=  0.00336 ( 0.00011) est. =  0.00674 (  0.00315,   0.00358)
+br   3 samp mean=  0.00671 ( 0.00016) est. =  0.00339 (  0.00640,   0.00702)
+br   4 samp mean=  0.01356 ( 0.00030) est. =  0.00122 (  0.01299,   0.01414)
+br   5 samp mean=  0.02465 ( 0.00049) est. =  0.00120 (  0.02369,   0.02559)
+br   6 samp mean=  0.00183 ( 0.00007) est. =  0.00180 (  0.00169,   0.00197)
+br   7 samp mean=  0.00221 ( 0.00008) est. =  0.00218 (  0.00205,   0.00238)
+br   8 samp mean=  0.00242 ( 0.00008) est. =  0.00241 (  0.00227,   0.00257)
+br   9 samp mean=  0.01214 ( 0.00041) est. =  0.01210 (  0.01135,   0.01295)
+Actual time node  0 =   0.00000 (S.D. =    0.00000) (  0.00000,   0.00000)
+Actual time node  1 =   0.00000 (S.D. =    0.00000) (  0.00000,   0.00000)
+Actual time node  2 =   0.00000 (S.D. =    0.00000) (  0.00000,   0.00000)
+Actual time node  3 =   0.00000 (S.D. =    0.00000) (  0.00000,   0.00000)
+Actual time node  4 =   0.00000 (S.D. =    0.00000) (  0.00000,   0.00000)
+Actual time node  5 =   0.00000 (S.D. =    0.00000) (  0.00000,   0.00000)
+Actual time node  6 =   8.00933 (S.D. =    0.31792) (  7.53558,   8.75022)
+Actual time node  7 =  19.45569 (S.D. =    0.56976) ( 18.56073,  20.80364)
+Actual time node  8 =  31.33433 (S.D. =    0.66930) ( 30.38509,  32.98049)
+Actual time node  9 =  41.81573 (S.D. =    0.62277) ( 41.03038,  43.34313)
+Actual time node 10 =  89.11143 (S.D. =    0.20084) ( 88.71737,  89.50371)
+
+For rank corr. between genes  0 and  1, the observed
+value is  0.9636364 and this is equalled or exceeded 0.002 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  0 and  2, the observed
+value is  0.9757576 and this is equalled or exceeded 0.002 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  0 and  3, the observed
+value is  1.0000000 and this is equalled or exceeded 0.000 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  0 and  4, the observed
+value is  0.9878788 and this is equalled or exceeded 0.000 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  0 and  5, the observed
+value is  0.9878788 and this is equalled or exceeded 0.000 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  0 and  6, the observed
+value is  0.8666667 and this is equalled or exceeded 0.009 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  0 and  7, the observed
+value is  0.7939394 and this is equalled or exceeded 0.037 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  0 and  8, the observed
+value is  0.5151515 and this is equalled or exceeded 0.136 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  1 and  2, the observed
+value is  0.9878788 and this is equalled or exceeded 0.010 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  1 and  3, the observed
+value is  0.9636364 and this is equalled or exceeded 0.006 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  1 and  4, the observed
+value is  0.9757576 and this is equalled or exceeded 0.007 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  1 and  5, the observed
+value is  0.9757576 and this is equalled or exceeded 0.003 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  1 and  6, the observed
+value is  0.9151515 and this is equalled or exceeded 0.014 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  1 and  7, the observed
+value is  0.8909091 and this is equalled or exceeded 0.009 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  1 and  8, the observed
+value is  0.5030303 and this is equalled or exceeded 0.156 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  2 and  3, the observed
+value is  0.9757576 and this is equalled or exceeded 0.010 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  2 and  4, the observed
+value is  0.9636364 and this is equalled or exceeded 0.002 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  2 and  5, the observed
+value is  0.9878788 and this is equalled or exceeded 0.003 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  2 and  6, the observed
+value is  0.9272727 and this is equalled or exceeded 0.015 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  2 and  7, the observed
+value is  0.8787879 and this is equalled or exceeded 0.020 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  2 and  8, the observed
+value is  0.5151515 and this is equalled or exceeded 0.160 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  3 and  4, the observed
+value is  0.9878788 and this is equalled or exceeded 0.000 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  3 and  5, the observed
+value is  0.9878788 and this is equalled or exceeded 0.001 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  3 and  6, the observed
+value is  0.8666667 and this is equalled or exceeded 0.022 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  3 and  7, the observed
+value is  0.7939394 and this is equalled or exceeded 0.062 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  3 and  8, the observed
+value is  0.5151515 and this is equalled or exceeded 0.177 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  4 and  5, the observed
+value is  0.9757576 and this is equalled or exceeded 0.001 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  4 and  6, the observed
+value is  0.8545455 and this is equalled or exceeded 0.020 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  4 and  7, the observed
+value is  0.8060606 and this is equalled or exceeded 0.017 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  4 and  8, the observed
+value is  0.5030303 and this is equalled or exceeded 0.136 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  5 and  6, the observed
+value is  0.8909091 and this is equalled or exceeded 0.013 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  5 and  7, the observed
+value is  0.8424242 and this is equalled or exceeded 0.030 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  5 and  8, the observed
+value is  0.5030303 and this is equalled or exceeded 0.152 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  6 and  7, the observed
+value is  0.9515152 and this is equalled or exceeded 0.015 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  6 and  8, the observed
+value is  0.6606061 and this is equalled or exceeded 0.102 of
+the time when these 2 genes evolve independently
+
+For rank corr. between genes  7 and  8, the observed
+value is  0.5636364 and this is equalled or exceeded 0.155 of
+the time when these 2 genes evolve independently
+

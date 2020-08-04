@@ -1,0 +1,46 @@
+/* the following lines are all needed in multicntrl.dat ...
+   do not add or delete lines but change entry on left of each
+   line as you see fit ...  */
+7tax.tre
+9 ... number of genes ... FOLLOWING LINES CONTAIN ONLY NAMES OF DATA FILES
+o.estb.group0
+o.estb.group1
+o.estb.group2
+o.estb.group3
+o.estb.group4
+o.estb.group5
+o.estb.group6
+o.estb.group7
+o.estb.group8
+10000 ... numsamps: How many times should the Markov chain be sampled?
+5000 ... sampfreq: How many cycles between samples of the Markov chain?
+5000000 ... burnin: How many cycles before the first sample of Markov chain?
+89.1 ... rttm: a priori expected number of time units between tip and root
+0.2 ... rttmsd: standard deviation of prior for time between tip and root
+0.0016 ... rtrate: mean of prior distribution for rate at root node
+0.0016 ... rtratesd: standard deviation of prior for rate at root node
+0.023 ... brownmean: mean of prior for brownian motion constant "nu"
+0.023 ... brownsd: std. deviation of prior for brownian motion constant "nu"
+/* the following lines are all needed (i.e., do not delete them) but you may 
+   not want to alter entries unless you are familiar with the computer code */
+1.0  ... minab: parameter for beta prior on proportional node depth
+0.1 ... newk: parameter in Markov chain proposal step
+0.5 ... othk: parameter in Markov chain proposal step
+0.5 ... thek: parameter in Markov chain proposal step
+120.0 ... bigtime: number higher than time units between tip and root could
+                   be in your wildest imagination
+/* the program will expect the entry below to be the number of constraints
+   and then the specified number of constraints should follow on
+   subsequent lines */
+8 ... number of constraints on node times
+L 6 7.5
+U 6 10.0
+L 7 11.2
+U 7 28.0
+L 8 25.0
+U 8 33.7
+L 9 41.0
+U 9 62.1
+0 ... number of tips which are not collected at time 0
+0  ... nodata: 1 means approximate prior, 0 means approximate posterior
+0 ...commonbrown: 1 if all genes have same tendency to change rate, 0 otherwise
