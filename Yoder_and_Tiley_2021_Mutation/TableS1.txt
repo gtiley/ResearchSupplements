@@ -1,0 +1,21 @@
+Species	Mutation Rate	Ne	Mass	Mutation Rate Citation	Ne Citation	Mass Citation	Category
+Human	1.20E-08	1.00E+04	58540.63	Jónsson et al. 2017	Keinan and Clark 2012	Jones et al. 2009	Primate
+Chimp	1.27E-08	1.10E+04	45000	Besenbacher et al. 2019	Prado-Martinez et al. 213	Jones et al. 2009	Primate
+Gorilla	1.13E-08	NA	114000	Besenbacher et al. 2019	NA	Jones et al. 2009	Primate
+Orangutan	1.66E-08	2.68E+04	39696.12	Besenbacher et al. 2019	Prado-Martinez et al. 213	Jones et al. 2009	Primate
+GreenMonkey	9.40E-09	1.20E+04	3695.99	Pfeifer 2017a	Pfeifer 2017b	Jones et al. 2009	Primate
+Baboon	5.70E-09	NA	16900	Wu et al. 2020	NA	Jones et al. 2009	Primate
+Macaque	7.30E-09	7.99E+04	6455.19	Bergeron et al. 2020	Xue et al. 2017	Jones et al. 2009	Primate
+OwlMonkey	8.10E-09	NA	795	Thomas et al. 2018	NA	Jones et al. 2009	Primate
+MouseLemur	1.52E-08	4.10E+04	69	Campbell et al. 2020	Campbell et al. 2020	Jones et al. 2009	Primate
+Wolf	4.50E-09	9.62E+03	31756.51	Koch et al. 2019	Silva et al. 2020	Jones et al. 2009	 Non-Primate Mammal
+Mouse	3.90E-09	7.50E+04	19.3	Lindsay et al. 2019	Phifer-Rixley et al. 2012	Jones et al. 2009	 Non-Primate Mammal
+Cat	8.60E-09	NA	4500	Wang et al. 2021	NA	NA	 Non-Primate Mammal
+Platypus	7.00E-09	2.00E+04	1484.25	Martin et al. 2018	Martin et al. 2018	Jones et al. 2009	 Non-Primate Mammal
+Cow	9.70E-09	3.70E+04	618642.42	Harland et al. 2017	Li and Kim 2015	Jones et al. 2009	 Non-Primate Mammal
+Flycatcher	4.60E-09	3.00E+05	12.62	Smeds et al. 2016	Nadachowska_Brzyska 2016	Cooke et al. 2019	Bird
+Herring	2.00E-09	4.00E+05	500	Feng et al. 2017	Feng et al. 2017	Froese et al. 2020	Fish
+Honeybee	3.40E-09	4.73E+05	0.0944	Yang et al. 2015	Yang et al. 2015	Chown et al. 2007	Insect
+Bumblebee	3.60E-09	NA	0.74	Liu et al. 2017	NA	Chown et al. 2007	Insect
+Butterfly	2.90E-09	2.00E+06	0.23	Keightley et al. 2015	Keightley et al. 2015	Chown et al. 2007	Insect
+Fly	2.80E-09	1.40E+06	0.00095	Keightley et al. 2014	Keightley et al. 2014	Chown et al. 2007	Insect
